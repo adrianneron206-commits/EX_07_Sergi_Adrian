@@ -10,13 +10,43 @@ Cuestionario interactivo de Java para consola, desarrollado colaborativamente me
 - Validar que la entrada del usuario corresponda a una de las opciones disponibles.
 - Interactuar por consola mediante `Scanner` y controlar los flujos y condicionales.
 
-## Fases del proyecto
+## Fases del Proyecto (Modelo en Cascada)
 
-1. **Análisis y requisitos:** definir el cuestionario, las preguntas y la validación de entradas.
-2. **Diseño:** planificar la estructura modular del código y el trabajo con ramas de Git.
-3. **Implementación:** desarrollar el cuestionario y organizar las preguntas en bloques.
-4. **Pruebas y depuración:** comprobar las respuestas correctas y el manejo de entradas no válidas.
-5. **Despliegue y entrega:** integrar el trabajo final en la rama principal.
+```text
+┌─────────────────────────────────────────┐
+│ 1. ANÁLISIS Y REQUISITOS                │
+│    - Interacción por consola (Scanner)  │
+│    - Control de flujos y condicionales  │
+│    - Banco de al menos 50 preguntas Java│
+└────────────────────┬────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────┐
+│ 2. DISEÑO DEL SISTEMA                   │
+│    - Estructura modular del código      │
+│    - Planificación de ramas en Git      │
+└────────────────────┬────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────┐
+│ 3. IMPLEMENTACIÓN Y CODIFICACIÓN        │
+│    - Desarrollo colaborativo en ramas   │
+│    - Preguntas con cuatro respuestas    │
+└────────────────────┬────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────┐
+│ 4. PRUEBAS Y DEPURACIÓN                 │
+│    - Validación de preguntas y respuestas│
+│    - Control de entradas no válidas     │
+└────────────────────┬────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────┐
+│ 5. DESPLIEGUE Y ENTREGA                 │
+│    - Integración final en rama principal│
+└─────────────────────────────────────────┘
+```
 
 ## Estructura
 
