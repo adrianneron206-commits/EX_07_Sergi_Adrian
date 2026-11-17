@@ -33,7 +33,7 @@ public class Main {
         System.out.print("Tu respuesta: ");
         respuesta = scanner.nextLine().trim().toLowerCase();
 
-        if (!respuesta.matches("[abcd]")) {
+        if (!respuesta.matches("[abcd]")) { // Validación de entrada
             System.out.println("Respuesta no válida: a, b, c, d");
             System.out.println("El programa ha terminado por entrada incorrecta.");
             System.exit(0);
@@ -242,6 +242,229 @@ public class Main {
         } else {
             System.out.println("Respuesta incorrecta, la respuesta correcta es: c");
         }
+
+// PREGUNTA 39
+        System.out.println("\n39. ¿Cuál es el operador de asignación compuesto para sumar y asignar en Java?");
+        System.out.println("a. =+ \n b. += \n c. ++ \n d. ==+");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("b")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: b");
+        }
+
+// PREGUNTA 40
+        System.out.println("\n40. ¿Qué hace el operador de incremento (++i) cuando se coloca antes de la variable?");
+        System.out.println("a. Incrementa la variable después de evaluarla \n b. Incrementa la variable antes de usarla en la expresión \n c. Eleva al cuadrado la variable \n d. Multiplica por dos");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("b")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: b");
+        }
+
+// PREGUNTA 41
+        System.out.println("\n41. ¿Cómo se llama el mecanismo de Java que libera automáticamente la memoria de objetos que ya no se usan?");
+        System.out.println("a. MemoryCleaner \n b. Garbage Collector (Recolector de basura) \n c. Destructor Manual \n d. FreeRam");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("b")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: b");
+        }
+
+// PREGUNTA 42
+        System.out.println("\n42. ¿Qué método se utiliza para comparar el contenido de dos cadenas (String) de forma exacta?");
+        System.out.println("a. == \n b. equals() \n c. compareLength() \n d. isSame()");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("b")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: b");
+        }
+
+// PREGUNTA 43
+        System.out.println("\n43. ¿Qué modificador permite que un método o variable pertenezca a la clase en lugar de a una instancia específica?");
+        System.out.println("a. global \n b. static \n c. common \n d. shared");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("b")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: b");
+        }
+
+// PREGUNTA 44
+        System.out.println("\n44. ¿Cuál de las siguientes opciones describe mejor a un arreglo (array) en Java?");
+        System.out.println("a. Una colección de tamaño fijo con elementos del mismo tipo \n b. Una lista que cambia de tamaño automáticamente \n c. Una clase abstracta \n d. Un tipo de dato primitivo único");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("a")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: a");
+        }
+
+// PREGUNTA 45
+        System.out.println("\n45. ¿Qué sentencia se usa para saltar a la siguiente iteración de un bucle ignorando el resto del código actual?");
+        System.out.println("a. skip \n b. continue \n c. next \n d. break");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("b")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: b");
+        }
+
+// PREGUNTA 46
+        System.out.println("\n46. ¿Qué estructura de datos tipo LIFO (Last In, First Out) proporciona Java en sus librerías?");
+        System.out.println("a. Queue \n b. Stack \n c. Map \n d. Set");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("b")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: b");
+        }
+
+// PREGUNTA 47
+        System.out.println("\n47. ¿Qué interfaz de Java representa una colección que no permite elementos duplicados?");
+        System.out.println("a. List \n b. Set \n c. Map \n d. Collection");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("b")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: b");
+        }
+
+// PREGUNTA 48
+        System.out.println("\n48. ¿Qué estructura almacena pares de clave-valor (Key-Value)?");
+        System.out.println("a. Map \n b. List \n c. Array \n d. Stack");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("a")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: a");
+        }
+
+// PREGUNTA 49
+        System.out.println("\n49. ¿Cómo se le llama al proceso de sobrescribir un método heredado en una subclase?");
+        System.out.println("a. Overloading (Sobrecarga) \n b. Overriding (Sobrescritura) \n c. Hiding (Ocultación) \n d. Shadowing");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("b")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: b");
+        }
+
+// PREGUNTA 50
+        System.out.println("\n50. ¿Cuál es el operador ternario condicional en Java?");
+        System.out.println("a. ? : \n b. if ? else : \n c. condition -> true : false \n d. & | !");
+        System.out.print("Tu respuesta: ");
+        respuesta = scanner.nextLine().trim().toLowerCase();
+
+        if (!respuesta.matches("[abcd]")) {
+            System.out.println("Respuesta no válida: a, b, c, d");
+            System.out.println("El programa ha terminado por entrada incorrecta.");
+            System.exit(0);
+        }
+        if (respuesta.equals("a")) {
+            System.out.println("¡Respuesta correcta!");
+            aciertos++;
+        } else {
+            System.out.println("Respuesta incorrecta, la respuesta correcta es: a");
+        }
         return aciertos;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int aciertos = ejecutar(scanner);
+        System.out.println("\nHas acertado " + aciertos + " de 25 preguntas.");
+        scanner.close();
     }
 }
